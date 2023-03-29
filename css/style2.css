@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans & family= Roboto:ital,wght@1,300 & display=swap');
+
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0;
+    background-color: white;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    color: rgb(255, 0, 0);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#menu ul li a:hover{
+    background-color: rgb(168, 168, 172);
+}
